@@ -5,7 +5,10 @@ O WesCommerce é um projeto que simula a página inicial para uma aplicação de
 
 ## Pré-requisitos
 
-Antes de iniciar, é necessário ter o [Node](https://nodejs.org/en/download) instalado na sua maquina e um edito de código como o [VSCode](https://code.visualstudio.com/) para facilitar o trabalho com o código.
+Antes de iniciar, é necessário ter o [Node](https://nodejs.org/en/download) nas versões mais recentes instalado na sua maquina e um edito de código como o [VSCode](https://code.visualstudio.com/) para facilitar o trabalho com o código.
+
+## Contribuições
+Para o carregamento dos dados foi utilizado a API gratuita de e-commerce [Platzi Fake Store API](https://fakeapi.platzi.com/)	
 
 ### 🎲 Rodando a Aplicação
 
@@ -52,5 +55,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Filtro de produtos por categoria
 - [x] Filtro de produto por nome do produto
 - [x] Adicionar quantidade por item ao itens no carrinho 
+- [] Adição do reactQuery para realização das chamadas a API
 
 
