@@ -23,6 +23,8 @@ export const Description = styled.p`
     text-align: justify;
 `;
 
+
+
 export const CartSection = styled.div`
     display: flex;
     justify-content : space-between ;

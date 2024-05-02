@@ -51,5 +51,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Adição dos produtos no carrinho
 - [x] Filtro de produtos por categoria
 - [x] Filtro de produto por nome do produto
+- [x] Adicionar quantidade por item ao itens no carrinho 
 
 

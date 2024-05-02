@@ -11,11 +11,12 @@ export interface ProductViewInterface {
     description: string;
     image: string;
     price: number;
+    quantity: number;
     onRemove: () => void;
 }
 
 export const ProductView = (props: ProductViewInterface) => {
-    const {description,image,onRemove,title, price} = props;
+    const {description,image,onRemove,title, price, quantity} = props;
     
     const [imageError, setImageError] = useState(false);
 
@@ -40,15 +41,14 @@ export const ProductView = (props: ProductViewInterface) => {
                     />
                 )}
 
-
-               
-                
             </S.ImageSection> 
 
             <S.InfosSection>
-                <p> <strong> {title} </strong></p>
+                <p> <strong> {title} (quantidade: {quantity}) </strong></p>
 
                 <S.Description> {description} </S.Description>
+
+          
 
                 <S.CartSection>
                     <S.Price> {price.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</S.Price>

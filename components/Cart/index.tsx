@@ -40,15 +40,16 @@ const Cart = () => {
                             
                             {products.length ? (
                                 <>
-                                    {products.map(({title,description,price,images}, index) => (
+                                    {products.map(({product, quantity}, index) => (
                                         <S.Item xs={12}>
                                             <ProductView 
                                             key={index}
-                                            description={description}
-                                            price={price}
-                                            image={images[0]}
+                                            description={product.description}
+                                            price={product.price}
+                                            image={product.images[0]}
                                             onRemove={() => remove(index)}
-                                            title={title}
+                                            title={product.title}
+                                            quantity={quantity}
                                             />
                                         
                                         </S.Item>
