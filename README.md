@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Descrição
 
-## Getting Started
+O WesCommerce é um projeto que simula a página inicial para uma aplicação de e-commerce. Dentro do WesCommerce existem um Hall de Produtos e esses produtos podem ser adicionados ao Carrinho de compras. No Carrinho de compras pode se retirar o produto e aumentar ou diminuir sua quantidade.   
 
-First, run the development server:
+
+## Pré-requisitos
+
+Antes de iniciar, é necessário ter o [Node](https://nodejs.org/en/download) instalado na sua maquina e um edito de código como o [VSCode](https://code.visualstudio.com/) para facilitar o trabalho com o código.
+
+### 🎲 Rodando a Aplicação
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone este repositório
+$ git clone <https://github.com/Weslley049/WesCommerce>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd WesCommerce
+
+
+
+
+# Instale as dependências
+$ yarn install ou npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn dev ou npm run dev
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+
 ```
+### 🛠 Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As seguintes ferramentas foram usadas na construção do projeto:
+- [Next.js](https://nextjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [MaterialUI](https://mui.com/material-ui/)
+- [Styled-Components](https://styled-components.com/)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Status do Projeto 
+<h4> 
+	Projeto já pode ser utilizado. Esperando novas funcionalidades 🚀 
+</h4>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+### Features
 
-To learn more about Next.js, take a look at the following resources:
+- [x] Listagem de produtos
+- [x] Adição dos produtos no carrinho
+- [x] Filtro de produtos por categoria
+- [x] Filtro de produto por nome do produto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
